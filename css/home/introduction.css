@@ -1,7 +1,7 @@
 .introducao-bg {
-  background: #000000;
-  color: #ffffff;
-  box-shadow: inset 0 -120px #ffffff;
+  background: var(--cor-12);
+  color: var(--cor-0);
+  box-shadow: inset 0 -120px var(--cor-0);
 }
 
 .introducao {
@@ -25,7 +25,7 @@
 }
 
 .introducao h1 span {
-  color: #ffbb00;
+  color: var(cor-p1);
 }
 
 .introducao p {
@@ -59,9 +59,9 @@
 
 @media (max-width: 800px) {
   .introducao-bg {
-    background-color: #111111;
+    background-color: var(--cor-11);
     padding-top: 40px;
-    box-shadow: inset 0 -60px #ffffff;
+    box-shadow: inset 0 -60px var(--cor-0);
   }
   .introducao {
     grid-template-columns: 1fr;

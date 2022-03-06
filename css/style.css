@@ -3,6 +3,8 @@
 
 /* Utils */
 @import "./utils/components.css";
+@import "./utils/typography.css";
+@import "./utils/colors.css";
 
 /* Home */
 @import "./home/introduction.css";
